@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --app-bg-light: radial-gradient(circle at top, #eef4ff, #f8fafc 45%, #f1f5f9 100%);
+  --app-bg-dark: radial-gradient(circle at top, #102247, #081228 45%, #050d1f 80%);
+}
+
+.bg-app-light {
+  background: var(--app-bg-light);
+}
+
+.bg-app-dark {
+  background: var(--app-bg-dark);
+}
